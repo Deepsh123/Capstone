@@ -1,0 +1,40 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/gradient-background-green-tones_23-2148373477.jpg?w=360);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    
+font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+  
+  /* Clear floats after the columns */
+
+
+  li {
+    font-family: 'Courier New', Courier, monospace;
+      font-size: larger;
+  }
+
+  label {
+    font-family: 'Courier New', Courier, monospace;
+      font-size: larger;
+  }
+
+  #warning {
+      font-family: 'Courier New', Courier, monospace;
+  }

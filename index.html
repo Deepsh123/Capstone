@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Find My Stores</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js"></script>
+
+
+</head>
+<body>
+<center>
+    <h1 id="header">Find My Stores🏬</h1>
+    <h2 id="warning">Please type in the zipcode 80602 as this website has a fixed output right now. Thank You!</h2>
+  <label>Zipcode:</label>
+        <input type="text" id="zip_code">
+        <button id="button" class="title" onclick="display()">Find</button>
+     
+</center>
+<div class="row">
+    <div class="column">
+    <h1 style="display:none;" id="supermarkets">Supermarkets</h1>
+     <h2 style="display: none;" id="##">These are not all the supermarkets near you but they are the nicest ones and they have good quality service.</h2>
+    <ul style="display: none;" id="list">
+        <li ><a target="_blank" id="1" href="https://www.kingsoopers.com/pr/boost?ds_rl=1281562&ds_rl=1281638&cid=ps_adw_ogs_15x1savoffer_t:king+soopers%27&gclid=Cj0KCQiAjbagBhD3ARIsANRrqEvEAlGp-iD8cYyByEGwBjDxXsaJZWXJ8oKZBsfUQwyXr1F2RFr-MekaArToEALw_wcB&gclsrc=aw.ds"></a></li>
+        <li><a target="_blank" id="2" href="https://www.safeway.com/?&pushSection=home&cmpid=ps_swy_den_ecom_goo_20200803_71700000070023656_58700006198696363_43700055955514557&MerkleENT&prsc=g&gclid=Cj0KCQiAjbagBhD3ARIsANRrqEsU66cuJuK-iOmWKXxILGiuKxiA6zouDr329EP_IR9HeY2r0zYeTxsaAqHiEALw_wcB&gclsrc=aw.ds"></a></li>
+        <li> <a target="_blank" id="3" href="https://www.target.com/?ref=tgt_adv_XS000000&AFID=google&fndsrc=tgtao&DFA=71700000012637812&CPNG=Other_Target%2BBrand%7CHoliday_Ecomm_Other&adgroup=Core+Branded+Keywords&LID=700000001170706&LNM=target&MT=e&network=g&device=c&location=9028914&targetid=kwd-19131461&gclid=Cj0KCQiAjbagBhD3ARIsANRrqEuM46FRshnbwaw31-nGh4hMYDYYnsUQW3zdO3OJGYelKAlLbNMV-NIaApf7EALw_wcB&gclsrc=aw.ds"></a></li>
+        <li><a target="_blank" id="4" href="https://website--7666422076956827881144-grocerystore.business.site/"></a></li>
+        <li><a target="_blank" id="5" href="https://www.sprouts.com/?gclid=Cj0KCQiAjbagBhD3ARIsANRrqEvUO-s9TNBgaoesfSydY0psDGEAnVOoKeeqartuvc7pEXigkC-Vz8AaAqwlEALw_wcB"></a></li>
+        <li><a target="_blank" id="6" href="https://www.walmart.com/?&gclsrc=aw.ds&adid=22222222220220085369&wmlspartner=wmtlabs&wl0=e&wl1=g&wl2=c&wl3=521205638070&wl4=kwd-27665750&wl5=9028914&wl6=&wl7=&wl8=&veh=sem&gclid=Cj0KCQiAjbagBhD3ARIsANRrqEuCMg9DYqYTXAH9XLhwl80C7SNh3bWAXD8---HYr80f2cFOhQtC28waArIgEALw_wcB"></a></li>
+        <li><a target="_blank" id="7" href="https://gofreshusa.com/"></a></li>
+        <li><a target="_blank" id="8" href="https://shop.savealot.com/"></a></li>
+    </ul>
+</div>
+    
+    <div class="column">
+    <h1 id="stores" style="display: none;">Department Stores</h1>
+    <h2 style="display: none;" id="#">The department stores listed below are the ones with the best clothing and are the ones that people have 3 stars and above ratings.</h2>
+ <ul id="list_1" style="display: none;">
+        <li><a target="_blank" id="9" href="https://www.kohls.com/?kwid=p43857836129&utm_source=google&utm_medium=cpc&utm_term=Kohls.&utm_campaign=Brand_Search_Google_Brand&UTM_Adgroupid=58700005024606624&pfx=pfx_google_roi&cid=brandsearch&ds_rl=2671&gclid=Cj0KCQiAjbagBhD3ARIsANRrqEsiqv5Pwjjydy6tfwLm_UkA3Fgjou0qenOqDStFFs679Bk1L9x_8nIaAqBEEALw_wcB&gclsrc=aw.ds"></a></li>
+        <li><a target="_blank" id="10" href="https://www.marshalls.com/us/store/index.jsp"></a></li>
+        <li><a target="_blank" id="11" href="https://tjmaxx.tjx.com/store/index.jsp"></a></li>
+        <li><a target="_blank" id="12" href="https://www.macys.com/?ranMID=3184&ranEAID=50rqOrVy53Q&ranClickid=QgyjhOEclLVZclvPYNQ5Fg&ranSiteID=50rqOrVy53Q-QgyjhOEclLVZclvPYNQ5Fg&rcid=lh_c9ca4p&LinkshareID=50rqOrVy53Q-QgyjhOEclLVZclvPYNQ5Fg&m_sc=aff&PartnerID=LINKSHARE&cm_mmc=LINKSHARE-_-5-_-63-_-MP563&LSNSUBSITE=Omitted_50rqOrVy53Q"></a></li>
+        <li><a target="_blank" id="13" href="https://www.jcpenney.com/?utm_source=google&utm_medium=cpc&utm_campaign=paid%20search&cid=paid%20search%7cgoogle%7cG_Desktop_Brand_Exact_Core%7cG_Desktop_Brand_Exact_Core_KWDs&utm_content=kwd-29180950&utm_adgroupid=123161552879&utm_keyword=jcpenny&utm_matchtype=e&utm_device=c&gclid=Cj0KCQiAjbagBhD3ARIsANRrqEucvZ5gbCJGu7mOX4T_HwcWmXBUmn5s-e2mKmq5l2ypoTGdQ9H-zvUaAoLNEALw_wcB&gclsrc=aw.ds"></a></li>
+        <li><a id="19" target="_blank" href="https://www.rossstores.com/"></a></li>
+        <li><a id="20" target="_blank" href="https://www.chicos.com/store/?bref=chicos"></a></li>
+        <li><a id="21" target="_blank" href="https://www.sears.com/"></a></li>
+    </ul>
+</div>
+
+<div class="column">
+<h1 id="store" style="display: none;">Convenience Stores</h1>
+<h2 style="display:none;" id="###">These Convenience Stores are probably the more trusted ones as some may seem unsanitary and uncomfortable.</h2>
+<ul id="list_2" style="display: none;">
+    <li><a target="_blank" id="14" href="https://www.7-eleven.com/locations/co/thornton/5601-e-136th-ave-37220"></a></li>
+    <li><a target="_blank" id="15" href="https://www.circlek.com/store-locator/US/thornton/12801-washington-st/2709850?utm_source=google&utm_medium=local&utm_campaign=google-local"></a></li>
+    <li><a target="_blank" id="16" href="https://www.kumandgo.com/"></a></li>
+    <li><a target="_blank" id="17" href="https://www.murphyusa.com/murphyusa/home"></a></li>
+    <li><a target="_blank" id="18" href="https://rocketstores.com/"></a></li>
+</ul>
+</div>
+</div>
+</body>
+</html>
